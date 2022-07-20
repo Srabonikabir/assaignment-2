@@ -1,5 +1,8 @@
 body{
   font-family: 'Poppins', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 *{
     margin: 0;
@@ -136,6 +139,72 @@ span{
     color: white;
   }
 
+  @media (max-width:1000px){
+    .butt{ 
+     background: none;
+       /* display: block; */
+    }
+     .button{
+      position: relative;
+       /* top:100px; */
+       margin-left: 20%;
+
+       text-align: center;
+   m    /* argin: 30%; */
+       margin-top: 0%;
+      border: none;
+     color: black;
+     /* background: #008CBA; */
+     /* padding: 16px 32px; */
+     /* text-align: center; */
+     display: flex;
+     text-decoration: none;
+     font-size: bold;
+      /* margin: 4px 2px;  */
+     transition-duration: 0.4s;
+     cursor: pointer;
+     margin-left: 50%;
+     
+     /* position: fixed;
+     margin-top: 10px; */
+   }
+     }
+
+
+  
+
+    @media (max-width:750px){
+     .butt{ 
+      background: none;
+        /* display: block; */
+     }
+      .button{
+       position: relative;
+        /* top:100px; */
+        margin-left: 20%;
+
+        text-align: center;
+    m    /* argin: 30%; */
+        margin-top: 0%;
+       border: none;
+      color: black;
+      /* background: #008CBA; */
+      /* padding: 16px 32px; */
+      /* text-align: center; */
+      display: flex;
+      text-decoration: none;
+      font-size: bold;
+       /* margin: 4px 2px;  */
+      transition-duration: 0.4s;
+      cursor: pointer;
+      margin-left: 50%;
+      
+      /* position: fixed;
+      margin-top: 10px; */
+    }
+      }
+
+
   /* 3rd part */
   p{
     text-align: center;
@@ -153,10 +222,12 @@ span{
     align-items: right;
     justify-content: center;
 align-items: right;
+position: absolute;
 
   }
 .contant{
   width: 20%;
+  height: 500px;
   /* margin: 15px; */
   margin-left: 15px;
   box-sizing: border-box;
@@ -222,20 +293,86 @@ button{
 @media(max-width:1000px){
   .contant{
   width: 45%;
+  position: relative;
+  width: 244px;
+  height: 200px;
+  display: block;
+  margin-top: 25%;
+
 }
 }
 @media(max-width:750px){
   .contant{
   width: 100%px;
+  position: relative;
+  width: 244px;
+  height: 500px;
+ grid-column: auto;
+margin-top: 25%;
 }
 }
+/* @media(max-width:500px){
+  .contant{
+  width: 100%px;
+  position: relative;
+  width: 244px;
+  height: 500px;
+ grid-column: auto;
+} */
 /* last part */
+
+.new-ticket{
+  /* width: 1000px; */
+  /* margin: auto; */
+  /* margin-top: 180px; */
+  display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 14%;
+    margin-top: -75%;
+    align-items: right;
+    justify-content: center;
+align-items: right;
+position: absolute;
+}
+.new-flag{
+  display: flex;
+  width: 5%;
+  height: 10px;
+  /* margin: 15px; */
+  margin-left: 15px;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+transition: .4s;
+background: white;
+}
+
+.img-size{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: flex ;
+
+}
+@media(max-width:750px){
+  .new-ticket{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 14%;
+    margin-top: -500%;
+  }}
 footer{
   background: #111;
   height: auto;
   width: 150%;
   margin-left: -20%;
-  margin-top: 50px;
+  margin-top: 1200px;
   font-family: "open sans";
   padding-top: 40px;
   color: white;
@@ -280,15 +417,22 @@ footer{
  margin-left: 20%;
 }
 
+@media (max-width:750px){
+footer{
+  width: 150%;
+  margin-left: -20%;
+  margin-top: 2800px;
+
+}}
 
 
-
-
-
-
-
-
-
+@media (max-width:450px){
+  footer{
+    width: 150%;
+    margin-left: -20%;
+    margin-top: 10000px;
+  
+  }}
 
 
 
